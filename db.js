@@ -1,4 +1,4 @@
-const Sequelize = require("sequelize")
+const Sequelize = require('sequelize')
 
 let db;
 
@@ -8,7 +8,7 @@ if(process.env.DATABASE_URL){
 else{
     db = new Sequelize({
         dialect: 'sqlite',
-        storage: __dirname + 'test.db'
+        storage: __dirname + '/test.db'
     })
 }
 

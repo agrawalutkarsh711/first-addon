@@ -1,4 +1,4 @@
-const express = requrie('express')
+const express = require('express')
 
 const {db} = require('./db.js')
 
